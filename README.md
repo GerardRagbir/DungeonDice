@@ -16,3 +16,15 @@ Fixes:
 
 - [X] Random number generator did not account for returning the integer "0"
 - [X] Rolled back V2 changes due to instability in the main thread.
+
+<h5> Build Instructions
+
+- Install [Dart](https://dart.dev/get-dart)
+- Clone this repository and navigate to ./bin folder in your terminal
+- Compile using the [dart compile command](https://dart.dev/tools/dart-compile)
+OR
+- Use the [dart run command](https://dart.dev/tools/dart-run)
+
+<pre><code>
+dart run bin/dungeondice.dart
+</code></pre>
