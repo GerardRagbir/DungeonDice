@@ -9,19 +9,19 @@ final rng = Random();
 dice(var command) {
   switch (command) {
     case 'd4':
-      return rng.nextInt(4);
+      return rng.nextInt(3) + 1;
     case 'd6':
-      return rng.nextInt(6);
+      return rng.nextInt(5) + 1;
     case 'd8':
-      return rng.nextInt(8);
+      return rng.nextInt(7) + 1;
     case 'd10':
-      return rng.nextInt(10);
+      return rng.nextInt(9) + 1;
     case 'd12':
-      return rng.nextInt(12);
+      return rng.nextInt(11) + 1;
     case 'd20':
-      return rng.nextInt(20);
+      return rng.nextInt(19) + 1;
     case 'd100':
-      return rng.nextInt(100);
+      return rng.nextInt(99) + 1;
     default:
       return unknownSelection;
   }
