@@ -11,20 +11,24 @@ Commands Available:
 - [ ] Add options for rolling with advantage/disadvantage ('--a' and '--d')
 - [ ] Add test cases
 
-
 Fixes:
 
 - [X] Random number generator did not account for returning the integer "0"
-- [X] Rolled back V2 changes due to instability in the main thread.
+- [X] Rolled back V2 changes due to instability in the main thread
 
-<h5> Build Instructions
+Issues:
+
+- "help" command fails to register
+
+<h5> Build Instructions </h5>
 
 - Install [Dart](https://dart.dev/get-dart)
 - Clone this repository and navigate to ./bin folder in your terminal
 - Compile using the [dart compile command](https://dart.dev/tools/dart-compile)
-OR
+  OR
 - Use the [dart run command](https://dart.dev/tools/dart-run)
 
 <pre><code>
 dart run bin/dungeondice.dart
 </code></pre>
+
